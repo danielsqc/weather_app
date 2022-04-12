@@ -14,7 +14,6 @@ import { TimeComponent } from './components/time/time.component';
 import { WeatherComponent } from './components/weather/weather.component';
 
 import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
 
 
 @NgModule({
@@ -31,7 +30,6 @@ import { ExamplesModule } from './examples/examples.module';
     FormsModule,
     RouterModule,
     ComponentsModule,
-    ExamplesModule,
     AppRoutingModule,
     HttpClientModule,
   ],
