@@ -11,33 +11,29 @@
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <!-- <a class="nav-link" rel="tooltip" title="The Project" data-placement="bottom" routerLinkActive="active" routerLink="/project" target="_blank"> -->
                     <a class="nav-link" routerLinkActive="active" routerLink="project">
                         <i class="nc-icon nc-settings"></i>
                         <p class="d-lg-none">The Project</p>
                     </a>
                 </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
+                <li class="nav-item">
                     <a class="nav-link" routerLinkActive="active" routerLink="/about-us">
-                    <!-- <a class="nav-link" rel="tooltip" title="About Us" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank"> -->
                         <i class="nc-icon nc-badge"></i>
                         <p class="d-lg-none">About Us</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLinkActive="active" routerLink="/open-weather-api">
-                    <!-- <a class="nav-link" rel="tooltip" title="Open Weather Map API" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank"> -->
                         <i class="nc-icon nc-sun-fog-29"></i>
                         <p class="d-lg-none">Open Weather Map API</p>
                     </a>
                 </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="GitHub" data-placement="bottom" href="https://www.github.com/" target="_blank">
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="GitHub" data-placement="bottom" href="https://github.com/danielsqc/weather_app" target="_blank">
                         <i class="fa fa-github"></i>
                         <p class="d-lg-none">GitHub</p>
                     </a>
                 </li>
-                <!-- <li class="nav-item" *ngIf="isHome()"> -->
                 <li class="nav-item">
                     <a class="btn btn-danger btn-round" routerLinkActive="active" routerLink="">
                         HOME
