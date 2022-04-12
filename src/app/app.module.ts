@@ -6,11 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { HttpClientModule } from '@angular/common/http';
 
-
-
 import { AppComponent } from './app.component';
-// import { NavbarComponent } from './shared/OLD.navbar/navbar.component';
-// import { FooterComponent } from './shared/footer/footer.component';
 
 import { MenuComponent } from './components/menu/menu.component';
 import { MainComponent } from './components/main/main.component';
@@ -24,8 +20,6 @@ import { ExamplesModule } from './examples/examples.module';
 @NgModule({
   declarations: [
     AppComponent,
-    // NavbarComponent,
-    // FooterComponent,
     MenuComponent,
     MainComponent,
     TimeComponent,

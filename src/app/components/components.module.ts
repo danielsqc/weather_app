@@ -17,10 +17,6 @@ import { NgbdModalContent } from './modal/modal.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { OpenWeatherApiComponent } from './open-weather-api/open-weather-api.component';
-// import { WeatherComponent } from './weather/weather.component';
-// import { TimeComponent } from './time/time.component';
-// import { MainComponent } from './main/main.component';
-// import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
     imports: [
@@ -43,10 +39,6 @@ import { OpenWeatherApiComponent } from './open-weather-api/open-weather-api.com
         ProjectComponent,
         AboutUsComponent,
         OpenWeatherApiComponent,
-        // WeatherComponent,
-        // TimeComponent,
-        // MainComponent,
-        // MenuComponent
     ],
     exports: [ComponentsComponent]
 })
