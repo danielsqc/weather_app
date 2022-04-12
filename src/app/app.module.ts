@@ -5,16 +5,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppComponent } from './app.component';
 
 import { MenuComponent } from './components/menu/menu.component';
 import { MainComponent } from './components/main/main.component';
 import { TimeComponent } from './components/time/time.component';
 import { WeatherComponent } from './components/weather/weather.component';
-
-import { ComponentsModule } from './components/components.module';
-
 
 @NgModule({
   declarations: [
@@ -29,7 +25,6 @@ import { ComponentsModule } from './components/components.module';
     NgbModule,
     FormsModule,
     RouterModule,
-    ComponentsModule,
     AppRoutingModule,
     HttpClientModule,
   ],

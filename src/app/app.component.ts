@@ -11,6 +11,7 @@ import { MenuComponent } from './components/menu/menu.component';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent implements OnInit {
     private _router: Subscription;
     @ViewChild(MenuComponent) navbar: MenuComponent;
@@ -47,17 +48,6 @@ export class AppComponent implements OnInit {
             var body = document.getElementsByTagName('body')[0];
             body.classList.add('ie-background');
 
-        }
-
-    }
-    removeFooter() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        titlee = titlee.slice( 1 );
-        if(titlee === 'signup' || titlee === 'nucleoicons'){
-            return false;
-        }
-        else {
-            return true;
         }
     }
 }
