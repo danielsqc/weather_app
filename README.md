@@ -1,4 +1,5 @@
 # Weather App
+![image](https://user-images.githubusercontent.com/7269571/163480788-1e378626-e75e-4736-ad57-5b0c7c7b5834.png)
 
 ### App
 [Netlify](https://aml3304.netlify.app/)
